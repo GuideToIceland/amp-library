@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Lullabot/amp-library.svg?branch=master)](https://travis-ci.org/Lullabot/amp-library)
+[![Build Status](https://travis-ci.org/GuideToIceland/amp-library.svg?branch=master)](https://travis-ci.org/GuideToIceland/amp-library)
 
 # This is a fork..!
 
