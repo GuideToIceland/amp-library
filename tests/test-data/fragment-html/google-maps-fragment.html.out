@@ -1,0 +1,44 @@
+<amp-iframe sandbox="allow-scripts allow-popups allow-same-origin" layout="responsive" height="260" width="640" src="https://www.google.com/maps/d/embed?mid=zr6I9xKqnHMs.kVehvx9dm-vc"></amp-iframe>
+
+<amp-iframe sandbox="allow-scripts allow-popups allow-same-origin" layout="responsive" height="450" width="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7087034.7182019325!2d8.901746170771798!3d64.29980676281761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461268458f4de5bf%3A0xa1b03b9db864d02b!2sNorway!5e0!3m2!1sen!2sis!4v1495794448333"></amp-iframe>
+
+
+ORIGINAL HTML
+---------------
+Line  1: <iframe
+Line  2:     frameborder="0"
+Line  3:     height="260"
+Line  4:     scrolling="no"
+Line  5:     src="//www.google.com/maps/d/embed?mid=zr6I9xKqnHMs.kVehvx9dm-vc"
+Line  6:     width="640">
+Line  7: </iframe>
+Line  8: 
+Line  9: <iframe
+Line 10:     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7087034.7182019325!2d8.901746170771798!3d64.29980676281761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461268458f4de5bf%3A0xa1b03b9db864d02b!2sNorway!5e0!3m2!1sen!2sis!4v1495794448333"
+Line 11:     width="600"
+Line 12:     height="450"
+Line 13:     frameborder="0"
+Line 14:     style="border:0"
+Line 15:     allowfullscreen>
+Line 16: </iframe>
+Line 17: 
+
+
+Transformations made from HTML tags to AMP custom tags
+-------------------------------------------------------
+
+<iframe frameborder height="260" scrolling="no" src="//www.google.com/maps/d/embed?mid=zr6I9xKqnHMs.kVehvx9dm-vc" width="640"> at line 6
+ ACTION TAKEN: iframe tag was converted to the amp-iframe tag. The url protocol was changed to explicitly use https. amp-iframe does not support http
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7087034.7182019325!2d8.901746170771798!3d64.29980676281761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461268458f4de5bf%3A0xa... at line 15
+ ACTION TAKEN: iframe tag was converted to the amp-iframe tag.
+
+
+AMP-HTML Validation Issues and Fixes
+-------------------------------------
+PASS
+
+COMPONENT NAMES WITH JS PATH
+------------------------------
+'amp-iframe', include path 'https://cdn.ampproject.org/v0/amp-iframe-0.1.js'
+
